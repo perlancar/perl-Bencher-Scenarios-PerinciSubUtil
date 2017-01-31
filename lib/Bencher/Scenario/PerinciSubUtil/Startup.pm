@@ -9,6 +9,9 @@ use warnings;
 
 our $scenario = {
     summary => 'Benchmark startup of Perinci::Sub::Util',
+    modules => {
+        'Perinci::Sub::Util' => {version=>'0.46'},
+    },
     module_startup => 1,
     participants => [
         {
